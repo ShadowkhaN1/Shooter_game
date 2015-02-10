@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Colission.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Muzyka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\laser.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Game\background.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\mineAnimation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\shipAnimation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Fire2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\endMenu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\mountain-lion.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\original.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\mainMenu.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="galaxy.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Starfield_512.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Prezentacja1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Muzyka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\explosion.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\gameMusic.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\laserFire.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\QuickSilver.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\Maching gun firing.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="menuMusic.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\trado.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Score.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
